@@ -10,7 +10,7 @@ interface ButtonProps {
     const buttonStyle = {
       width: `${props.width}px`, 
       height: `${props.height}px`,
-         };
+    };
 
     const nameStyle = {
         size: `${props.size}px`,
