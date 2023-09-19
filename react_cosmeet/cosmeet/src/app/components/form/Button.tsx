@@ -8,14 +8,14 @@ interface ButtonProps {
   
   export default function Button(props: ButtonProps) {
     const buttonStyle = {
-      width: `${props.width}px`, // Defina a largura em pixels
-      height: `${props.height}px`, // Defina a altura em pixels
-    };
+      width: `${props.width}px`, 
+      height: `${props.height}px`,
+         };
 
     const nameStyle = {
         size: `${props.size}px`,
-        color: ``;
-    }
+        color: `${props.color}`,
+    };
   
     return (
       <div className="">
