@@ -19,7 +19,7 @@ export default function Navbar() {
                 </div>
                 
                 <div className="element_login">
-                    <Button><span className="text-lg font-extrabold text-neutral-100">Login</span></Button>
+                    <Button height={40} width={90} nome="Login"></Button>
                 </div>
             </div>
         </div>
