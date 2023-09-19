@@ -24,7 +24,7 @@ export default function Home() {
                   setor se unirem, crescerem juntos e inspirarem a indústria.
                 </span>
                 </div>
-                <Button height={40} width={40} nome="aea"></Button>
+                <Button height={40} width={100} nome="Veja mais" color="#FAFAFA" fontSize={16} fontWeight="bold"></Button>
               </div>
             </div>
           </div>
