@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <div className="w-full flex justify-center items-center h-14">
+    <div className="w-full flex justify-center items-center h-14 pt-10">
       <div className="w-10/12 flex justify-around items-center">
         <div className="flex items-center gap-2">
           <div className="w-15h-20 max-w-full">
@@ -33,10 +33,10 @@ export default function Navbar() {
         <div className="element_login">
           <Button
             height={40}
-            width={90}
+            width={100}
             nome="Login"
             color="#FAFAFA"
-            fontSize={18}
+            fontSize={20}
             fontWeight="bold"
           ></Button>
         </div>
