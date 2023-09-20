@@ -12,7 +12,7 @@ export default function Navbar() {
               width={40}
               height={40}
               alt="Logo"
-              layout="responsive" // Define a imagem como responsiva
+              layout="responsive" 
             />
           </div>
           <span className="hidden md:inline text-blue-700 text-2xl font-bold">

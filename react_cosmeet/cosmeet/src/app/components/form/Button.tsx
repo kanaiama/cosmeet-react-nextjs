@@ -5,7 +5,7 @@ interface ButtonProps {
     fontSize: number;
     color: string;
     fontWeight: string;
-}
+  }
   
   export default function Button(props: ButtonProps) {
     const buttonStyle = {

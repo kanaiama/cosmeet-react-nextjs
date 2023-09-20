@@ -1,6 +1,6 @@
 import Button from "../form/Button";
 import Navbar from "@/app/components/layout/Navbar";
-import styles from "@/app/components/pages/Home.module.css"
+import Resultado from "../layout/Resultado";
 
 export default function Home() {
   return (
@@ -19,7 +19,6 @@ export default function Home() {
                   <span className="font-extrabold"> dos cosméticos.</span>
                 </h1>
 
-
                 <div className="w-2/5">
                   <span className="text-xl text-neutral-600 tracking-widest leading-tight">
                     A Cosmeet vem para transformar o mundo dos cosméticos. Como?
@@ -27,7 +26,14 @@ export default function Home() {
                     setor se unirem, crescerem juntos e inspirarem a indústria.
                   </span>
                 </div>
-                <Button height={40} width={140} nome="Veja mais" color="#FAFAFA" fontSize={20} fontWeight="bold"></Button>
+                <Button
+                  height={40}
+                  width={140}
+                  nome="Veja mais"
+                  color="#FAFAFA"
+                  fontSize={20}
+                  fontWeight="bold"
+                />
               </div>
             </div>
           </div>
@@ -35,12 +41,7 @@ export default function Home() {
           <div className="fundo_ilustracao">
             <div className="ilustracao"></div>
           </div>
-        </div>
-
-        <div className="caixa_resultados">
-          <div className="caixa"></div>
-          <div className="caixa"></div>
-          <div className="caixa"></div>
+        <Resultado />
         </div>
       </body>
     </>
